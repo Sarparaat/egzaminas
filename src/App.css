@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgba(201, 201, 201, 0.8)
+}
+.adds-Ad {
+  display: flex;
+  min-height: 100px;
+}
+
+.adds-Name {
+  width: 300px;
+}
+
+.adds-Button{
+  margin-left: 50px;
+  width: 100px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+header{
+  border-bottom: solid black 1px;
+  text-align: center;
+  background-color:rgba(157, 157, 157, 0.8) ;
+  height: 80px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.adds-Ad:nth-child(1) {
+  font-size: xx-large;
+  align-items: center;
+
+}
+
+.adds-Ad:nth-child(2) {
+  font-size: large;
+  align-items: center;
+
+}
+
+.adds-Ad p{
+
+  height: 100px;
+  word-wrap: break-word;
+  padding-top:20px ;
+}
+
+.adsAdds{
+  background-color:rgba(157, 157, 157, 0.8) ;
+  border: solid black 1px;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+}
+
+section{
+ max-height: 67%;
+
+}
